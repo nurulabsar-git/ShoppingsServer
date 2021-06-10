@@ -88,7 +88,7 @@ app.delete('/deleteOrderItem:id', (req, res) => {
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello World!, This is server side')
 })
 
 app.listen(process.env.PORT || 9000, () => {
